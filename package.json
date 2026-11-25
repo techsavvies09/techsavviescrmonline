@@ -1,0 +1,19 @@
+{
+  "name": "tech-savvies-crm-server",
+  "version": "1.0.0",
+  "description": "Tech Savvies Customer Issue & Daily Call Records Timesheet System Backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.10.0",
+    "uuid": "^11.1.0"
+  }
+}
